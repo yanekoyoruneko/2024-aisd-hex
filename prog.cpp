@@ -14,7 +14,6 @@ enum Color {
 class Board {
 public:
 
-	// this can be implemented using lambdas but i need stl for <functional> xd
 #define FOR_EACH_POS() \
 	for (int c = FIRST_COL; c < this->size + FIRST_COL; c++) { \
 		for (int r = FIRST_ROW; r < this->size * 2 + FIRST_ROW; r++)
